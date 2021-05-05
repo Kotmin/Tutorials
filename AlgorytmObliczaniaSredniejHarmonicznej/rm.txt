@@ -1,0 +1,7 @@
+Yoyo, w sumie nie pokazałem Ci że to ustrojstwo działa, że nie musi być tego couta przed returnem i nie wspomniałem o generatorach tych pierrr..... znaczy użytecznych schematów. 
+
+Ale łapaj linka kiedyś z nich korzystałem [ps polecam się jednak naumieć pseudokodu,schematów ns i od biedy tych blokowych]
+
+Link do generatora schematów blokowych: https://code2flow.com/
+Link do kodu: https://github.com/Kotmin/Tutorials.git
+Link do tutoriala: https://youtu.be/dzRJfQDGSm4

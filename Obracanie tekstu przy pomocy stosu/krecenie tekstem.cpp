@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include<sstream>
 
 
 using namespace std;
@@ -17,7 +18,7 @@ void invertWords(string path, element* &stack);
 
 void push(element* &stack, char value);
 void pop(element* &stack);
-bool isEmpty(element* stack); //bo jest tylko odczytywana
+bool isEmpty(element* stack);
 char top(element* stack);
 void deletewholestos(element* &stack);
 
@@ -40,7 +41,14 @@ void invertWords(string path, element* &stack)
     char znak;
     string pom;
 
-      while(getline(source,pom,' '))
+
+
+while(getline(source,pom,'\n')){
+
+    stringstream ss(pom);
+
+
+      while(getline(ss,pom,' '))
       {
           deletewholestos(stack);
 
@@ -55,10 +63,13 @@ void invertWords(string path, element* &stack)
           }
         target <<' ';
       }
+    target<<'\n';
 
+}
 
     source.eof();
     source.close();
+
     target.flush();
     target.close();
 }

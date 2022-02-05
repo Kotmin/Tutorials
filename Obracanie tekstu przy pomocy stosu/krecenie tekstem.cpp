@@ -113,5 +113,5 @@ void deletewholestos(element* &stack)
     {
         pop(stack);
     }
-    cout<<"\nWyczyscilem stosa\n";
+    //cout<<"\nWyczyscilem stosa\n";
 }
